@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +41,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#logo {
+  max-height: 75px;
+  margin-bottom: -36px;
+}
+
+nav {
+  display: flex;
+  background-color: dodgerblue;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+nav ul li {
+}
+
+nav ul li a {
+  color: white;
+  font-size: 16pt;
 }
